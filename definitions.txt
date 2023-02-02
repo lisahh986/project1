@@ -1,3 +1,103 @@
+
+Hope this helps. IDK how we will interface betweeen us though.
+
+1.   Do the various predicting factors which have been chosen initially really 
+affect the Life expectancy? What are the predicting variables actually affecting 
+life expectancy?
+
+Reginald: find and compile factor data
+Maria: Calculate calculation coefficients of factors
+Lisa: Chart various correaltion coefficients
+
+
+2.   Should a country having a lower life expectancy value(<65) increase its 
+healthcare expenditure in order to improve its average lifespan?
+
+Reginald: Funny Flow Chart   Spend more YES NO if YES :) or :|, if NO :( or :|
+
+
+3. Statistical test for Life Expectamcy based on Status *Maria
+
+Reginald: compile status data
+Maria: Do statistical tests
+Lisa: Visuals for the test
+
+
+5.   What is the impact of schooling on the life expectancy?
+
+Reginald: compile schooling data
+Maria: Schooling aggregation
+Lisa: Plotting aggregated le data
+
+
+6.   Does Life Expectancy have a positive or negative relationship with 
+drinking alcohol?
+
+Reginald: compile alcohol data
+Maria: Do statistical tests
+Lisa: Visuals for the test
+
+
+7.   Do densely populated countries tend to have lower life expectancy?
+
+Reginald: compile population data
+Maria: population aggregation
+Lisa: Plotting aggregated le data
+
+
+8.   What is the impact of Immunization coverage on Life Expectancy?
+
+Reginald: compile vax data
+Maria: vax aggregation
+Lisa: Plotting aggregated le data
+----------------------------
+
+
+BROAD RESPONSIBILITES
+Reginald: 
+get the data/API
+Data On
+-Life Expectancy, vaccination rates by vaccine, alcohol, education, gdp, healthcare spending, status,  population, by country
+
+Maria:
+Aggregation
+statistical testing
+mean, median, max correlations of factors by nation
+
+Lisa:
+Visuals
+Bar charts, line graphs, scatter plots
+plot data maria creates, or generate functions to esily plot what maria makes
+
+
+https://www.who.int/data/gho/info/athena-api-examples
+http://apps.who.int/gho/athena/api/download/life_expectancy.xls?target=GHO/WHOSIS_000001,WHOSIS_000015&format=xml&profile=excel
+
+
+
+REGINALD's job is to make this:
+pd.DataFrame({
+    "Country",
+    "Developed (True/False)",
+    "Life Expectancy (Years)",
+    "Population (Millions)",
+    "GDP Per Capita (USD)",
+    "Healthcare Spending (Millions Of USD)",
+    "Education (Avg. Years in School)",
+    "Alcohol",
+    "Vaccination1 Rate (Percent Of Pop)",
+    "Vaccination2 Rate (Percent Of Pop)",
+    "Vaccination3 Rate (Percent Of Pop)",
+})
+
+
+
+
+
+
+
+
+
 |Field|Description|
 |---:|:---|
 |Country|Country|
@@ -24,52 +124,3 @@
 |Schooling|Number of years of Schooling(years)|
 
 
-INSPIRATIONS
-8 inspirations : Inspiration:
-1.   Does various predicting factors which has been chosen initially really 
-affect the Life expectancy? What are the predicting variables actually affecting 
-life expectancy?
-2.   Should a country having a lower life expectancy value(<65) increase its 
-healthcare expenditure in order to improve its average lifespan?
-//
-3.   How does Infant and Adult mortality rates affect life expectancy?
-4.   Does Life Expectancy has positive or negative correlation with eating 
-habits, lifestyle, exercise, smoking, drinking alcohol etc.
-5.   What is the impact of schooling on the lifespan of humans?
-6.   Does Life Expectancy have a positive or negative relationship with 
-drinking alcohol?
-7.   Do densely populated countries tend to have lower life expectancy?
-8.   What is the impact of Immunization coverage on Life Expectancy?
-
-
-
-
-
-
-
-x_values = np.array(northern_hemi_df['Lat'])
-y_values = np.array(northern_hemi_df['Max Temp'])
-
-(slope, intercept, rvalue, pvalue, stderr) = st.linregress(x_values, y_values)
-
-# Get regression values
-regress_values = x_values * slope + intercept
-#Line equation
-line_eq = "y = " + str(round(slope,2)) + "x +" + str(round(intercept,2))
-# Create Plot
-plt.scatter(x_values,y_values)
-plt.plot(x_values,regress_values,"r-")
-
-# Label plot and annotate the line equation
-plt.xlabel('Latitude')
-plt.ylabel('Max Temperature')
-plt.annotate(line_eq,(2,-30),fontsize=15,color="red")
-
-# Print r value
-print(f"The r-value is: {rvalue**2}")
-
-# Show plot
-plt.show()
-
-https://www.who.int/data/gho/info/athena-api-examples
-http://apps.who.int/gho/athena/api/download/life_expectancy.xls?target=GHO/WHOSIS_000001,WHOSIS_000015&format=xml&profile=excel
