@@ -83,11 +83,8 @@ pd.DataFrame({
     "Population (Millions)",
     "GDP Per Capita (USD)",
     "Healthcare Spending (Millions Of USD)",
-    "Education (Avg. Years in School)",
     "Alcohol",
     "Vaccination1 Rate (Percent Of Pop)",
-    "Vaccination2 Rate (Percent Of Pop)",
-    "Vaccination3 Rate (Percent Of Pop)",
 })
 
 
