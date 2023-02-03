@@ -75,18 +75,7 @@ http://apps.who.int/gho/athena/api/download/life_expectancy.xls?target=GHO/WHOSI
 
 
 
-REGINALD's job is to make this:
-pd.DataFrame({
-    "Country",
-    "Developed (True/False)", //
-    "Life Expectancy (Years)",
-    "Population (Millions)",
-    "GDP Per Capita (USD)",
-    "Healthcare Spending (Millions Of USD)",
-    "Alcohol",
-    "Vaccination1 Rate (Percent Of Pop)",
-})
-
+factor_list = ["GDP", "LIFE EXPECTANCY", "POPULATION", "VACCINATION DTP", "VACCINATION MEASLES","HEALTH SPENDING", "ALCOHOL"]
 
 
 
