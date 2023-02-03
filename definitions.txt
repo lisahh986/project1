@@ -78,7 +78,7 @@ http://apps.who.int/gho/athena/api/download/life_expectancy.xls?target=GHO/WHOSI
 REGINALD's job is to make this:
 pd.DataFrame({
     "Country",
-    "Developed (True/False)",
+    "Developed (True/False)", //
     "Life Expectancy (Years)",
     "Population (Millions)",
     "GDP Per Capita (USD)",
