@@ -1,56 +1,74 @@
-1.   Do the various predicting factors which have been chosen initially really 
-affect the Life expectancy? What are the predicting variables actually affecting 
-life expectancy?
+This is our Life Expectancy Data Analytics Project!
 
-Reginald: find and compile factor data
-Maria: Calculate calculation coefficients of factors
-Lisa: Chart various correaltion coefficients
+We set out to answer 6 key questions regarding Life Expectancy.
 
+1. How is life expectancy in a country affected by Alcohol Consumption, GDP, Population, Vaccination DTP, Vaccination Measles and, Health Spending?
 
-2.   Should a country having a lower life expectancy value(<65) increase its 
-healthcare expenditure in order to improve its average lifespan?
+2. Do countries with higher GDPs have higher life expectancies? 
 
-Reginald: Funny Flow Chart   Spend more YES NO if YES :) or :|, if NO :( or :|
+3. Should a country having a lower life expectancy value(<65) increase its 
+healthcare expenditure in order to improve its average lifespan? 
 
-
-3. Statistical test for Life Expectamcy based on Status *Maria
-
-Reginald: compile status data
-Maria: Do statistical tests
-Lisa: Visuals for the test
-
-
-5.   What is the impact of schooling on the life expectancy?
-
-Reginald: compile schooling data
-Maria: Schooling aggregation
-Lisa: Plotting aggregated le data
-
-
-6.   Does Life Expectancy have a positive or negative relationship with 
+4. Does Life Expectancy have a positive or negative relationship with 
 drinking alcohol?
 
-Reginald: compile alcohol data
-Maria: Do statistical tests
-Lisa: Visuals for the test
+5. Do densely populated countries tend to have lower life expectancy?
+
+6. What is the impact of Immunization coverage has on Life Expectancy?
+
+-------------------------
+We combined data from the The Organisation for Economic Co-operation and Development (OECD) for use in our analysis.
+you can find these data at:
+Life Expectancy: https://data.oecd.org/healthstat/life-expectancy-at-birth.htm,
+Alcohol Consumption: https://data.oecd.org/healthrisk/alcohol-consumption.htm, 
+GDP: https://data.oecd.org/gdp/gross-domestic-product-gdp.htm, 
+Population: https://data.oecd.org/pop/population.htm, 
+Youth Vaccination: https://data.oecd.org/healthcare/child-vaccination-rates.htm, 
+Health Spending: https://data.oecd.org/healthres/health-spending.htm
+-------------------------
+
+Do countries with higher GDPs have higher life expectancies? 
+Stats- Correlation: 62%; Max: ; Min: ; Median: ; Mean:
+Based on our data it appears that aa higher gdp is correlated with a higher life expectancy
+
+Should a country having a lower life expectancy value(<65) increase its 
+healthcare expenditure in order to improve its average lifespan? 
+Stats- Correlation: 62%; Max: ; Min: ; Median: ; Mean:
+In general more spending on healthcare has a net positive affect. Our data suggests that countries with low life expectancies tedn to benefit more\notmuch more from increased healthcare spending.
+
+Does Life Expectancy have a positive or negative relationship with 
+drinking alcohol?
+Stats- Correlation: 15%; Max: ; Min: ; Median: ; Mean:
+Our data indicates a slight positive correlation between alcohol sales and life expectancy.
+
+Do densely populated countries tend to have lower life expectancy?
+Stats- Correlation: 15%; Max: ; Min: ; Median: ; Mean:
+
+What is the impact of Immunization coverage has on Life Expectancy?
+Stats- Correlation: DTP 42%, Measles 34%; Max: ; Min: ; Median: ; Mean:
 
 
-7.   Do densely populated countries tend to have lower life expectancy?
-
-Reginald: compile population data
-Maria: population aggregation
-Lisa: Plotting aggregated le data
-
-
-8.   What is the impact of Immunization coverage on Life Expectancy?
-
+Quick Facts:
+LE High/Low
+GDP High/Low
+Health Spending High Low
+Alcohol High Low
+Vacciantion DTP High Low
+Vacciantion Measles High Low
 
 
-chart 1 : mean of le w all of country : bar chart
-chart 2 : country by map chart
-chart 3 : gdp by  map
-chart 4 : gpd & le : scatter plot
-chart 5 : healthcare expenditure and le : scatter plot
-chart 6 : relationship le with drinking alcohol : scatter plot
-chart 7 : 2 immunization w le
-chart 8 : healthcare expenditure - le
+
+SUMMARY
+The correlation between HEALTH SPENDING and the life expectancy is 0.6193802064853304.
+The correlation between GDP and the life expectancy is 0.615072938805191.
+The correlation between VACCINATION DTP and the life expectancy is 0.42159274691845483.
+The correlation between VACCINATION MEASLES and the life expectancy is 0.34152186579128924.
+The correlation between ALCOHOL and the life expectancy is 0.15481183724191316.
+========================
+Readme 10
+explain pictures 5
+analysis and conclusion 20
+summarize major findings 5
+
+
+
