@@ -20,41 +20,62 @@ drinking alcohol?
 We combined data from the The Organisation for Economic Co-operation and Development (OECD) for use in our analysis.
 you can find these data at:
 Life Expectancy: https://data.oecd.org/healthstat/life-expectancy-at-birth.htm,
+
 Alcohol Consumption: https://data.oecd.org/healthrisk/alcohol-consumption.htm, 
+
 GDP: https://data.oecd.org/gdp/gross-domestic-product-gdp.htm, 
+
 Population: https://data.oecd.org/pop/population.htm, 
+
 Youth Vaccination: https://data.oecd.org/healthcare/child-vaccination-rates.htm, 
+
 Health Spending: https://data.oecd.org/healthres/health-spending.htm
 -------------------------
 
 Do countries with higher GDPs have higher life expectancies? 
-Stats- Correlation: 62%; Max: ; Min: ; Median: ; Mean:
+Stats- Correlation: 62%; Max: 117794; Min: 6998; Median: 40648; Mean: 42688
 Based on our data it appears that aa higher gdp is correlated with a higher life expectancy
-
+![Alt text](images/LEvGDP.png)
 Should a country having a lower life expectancy value(<65) increase its 
 healthcare expenditure in order to improve its average lifespan? 
-Stats- Correlation: 62%; Max: ; Min: ; Median: ; Mean:
+Stats- Correlation: 62%; Max: 11055; Min: 0.0; Median: 3247; Mean: 3505
 In general more spending on healthcare has a net positive affect. Our data suggests that countries with low life expectancies tedn to benefit more\notmuch more from increased healthcare spending.
-
+![Alt text](images/LEvHS.png)
 Does Life Expectancy have a positive or negative relationship with 
 drinking alcohol?
-Stats- Correlation: 15%; Max: ; Min: ; Median: ; Mean:
+Stats- Correlation: 15%; Max: 11.8; Min: 1.4; Median: 8.8; Mean: 8.27
 Our data indicates a slight positive correlation between alcohol sales and life expectancy.
-
+![Alt text](images/LEvAlc.png)
 Do densely populated countries tend to have lower life expectancy?
-Stats- Correlation: 15%; Max: ; Min: ; Median: ; Mean:
 
+![Alt text](images/LEvPop.png)
 What is the impact of Immunization coverage has on Life Expectancy?
-Stats- Correlation: DTP 42%, Measles 34%; Max: ; Min: ; Median: ; Mean:
+Stats- Correlation: 62%; Max: 99.9; Min: 78.5; Median: 95; Mean: 94.0
+![Alt text](images/vax.png)
 
 
-Quick Facts:
-LE High/Low
-GDP High/Low
-Health Spending High Low
-Alcohol High Low
-Vacciantion DTP High Low
-Vacciantion Measles High Low
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 LE
 The lower quartile is: 77.1
