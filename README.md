@@ -36,17 +36,21 @@ Health Spending: https://data.oecd.org/healthres/health-spending.htm
 
 Do countries with higher GDPs have higher life expectancies? 
 
-Stats- Correlation: 62%; Max: 117794; Min: 6998; Median: 40648; Mean: 42688
+GDP Stats- Max: 117794; Min: 6998; Median: 40648; Mean: 42688
+Life Expectancy vs GDP Correlation: 62%; 
 Mean of GDP for countries with life expectancy below 81: 27922
 Mean of GDP for countries with life expectancy over 81: 54377
-Ttest Results (statistic=-5.5, pvalue=0.0000023)
+
+T-test Results (statistic=-5.5, pvalue=0.0000023)
+
 Based on our data it appears that a higher gdp is positively correlated with a higher life expectancy
 
 ![Life Expectancy Vs GDP Chart](images/LEvGDP.png)
 
 Should a country having a lower life expectancy value(<65) increase its healthcare expenditure in order to improve its average lifespan?
 
-Stats- Correlation: 62%; Max: 11055; Min: 222; Median: 3247; Mean: 3505
+Health Spending Stats- Max: 11055; Min: 222; Median: 3247; Mean: 3505
+Life Expectancy vs Health Spending Correlation: 62%;
 
 In general more spending on healthcare has a net positive affect. Our data suggests that countries with a low life expectancies tend to benefit more from an increase in healthcare spending.
 
@@ -55,10 +59,12 @@ In general more spending on healthcare has a net positive affect. Our data sugge
 Does Life Expectancy have a positive or negative relationship with 
 drinking alcohol?
 
-Stats- Correlation: 15%; Max: 11.8; Min: 1.4; Median: 8.8; Mean: 8.27
+Alcohol Stats- Max: 11.8; Min: 1.4; Median: 8.8; Mean: 8.27
+Life Expectancy vs Health Spending Correlation: 15%;
 Mean of ALCOHOL for countries with life expectancy below 81: 7.7
 Mean of ALCOHOL for countries with life expectancy over 81: 8.8
-Ttest Results (statistic=-1.25, pvalue=0.22)
+T-test Results (statistic=-1.25, pvalue=0.22)
+
 Our data indicates a slight positive correlation between alcohol sales and life expectancy.
 
 ![Life Expectancy Vs Alcohol Sales Chart](images/LEvAlc.png)
@@ -68,14 +74,15 @@ Our data indicates that higher populations correlate with lower life expectancie
 
 Mean of POPULATION for countries with life expectancy below 81: 207
 Mean of POPULATION for countries with life expectancy over 81: 27
-Ttest Results (statistic=1.82, pvalue=0.08)
+T-test Results (statistic=1.82, pvalue=0.08)
 
 ![Life Expectancy Vs Population Chart](images/LEvPop.png)
 
 What is the impact of Immunization coverage has on Life Expectancy?
 
-Stats- Correlation: 62%; Max: 99.9; Min: 78.5; Median: 95; Mean: 94.0
-
+Vaccination Stats- Max: 99.9; Min: 78.5; Median: 95; Mean: 94.0
+Life Expectancy vs Measles Vaccination Correlation: 42%;
+Life Expectancy vs DTP Vaccination Correlation: 34%;
 Almost all nations we looked at have above 90% vaccination rates. These nations have average or above average life expectancies.
 
 ![Life Expectancy Vs Vaccination Chart](images/vax.png)
